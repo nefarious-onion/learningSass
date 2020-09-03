@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: hotpink;
+  font-family: Arial, Helvetica, sans-serif; }
+
+a {
+  color: darkgreen; }
+  a:hover {
+    color: coral;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease; }
+
+header {
+  background-color: darkgreen;
+  padding: 2rem; }
+  header h1 {
+    color: hotpink; }
+  header p {
+    color: coral; }
+
+.section {
+  min-height: 50vh;
+  padding: 2rem; }
+  .section-a {
+    background-color: wheat; }
+    .section-a h2 {
+      color: darkgreen; }
+  .section-b {
+    background-color: coral; }
+    .section-b h2 {
+      color: hotpink; }
